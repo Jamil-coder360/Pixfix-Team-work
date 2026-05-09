@@ -5,7 +5,7 @@ import Footer from './Footer'
 
 const Roots = () => {
   return (
-    <main className='bg-home'>
+    <main className=' '>
     <Header />
     <Outlet/>
     <Footer />

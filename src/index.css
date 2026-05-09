@@ -6,19 +6,20 @@
   /* color */
   --color-home :#FF6600;
   --color-black_900 :#171717;
+  --color-black_800 :#6E777D;
   --color-white :#FFFFFF;
 
   /* fonts */
   --font-archivo: "Archivo", sans-serif;
-  --font-inter: "Inter", sans-serif;
+  /* --font-inter: "Inter", sans-serif;
   --font-montserrat: "Montserrat", sans-serif;
   --font-orbitron: "Orbitron", sans-serif;
   --font-playfair: "Playfair Display", serif;
   --font-poppins: "Poppins", sans-serif;
-  --font-roboto: "Roboto", sans-serif;
+  --font-roboto: "Roboto", sans-serif; */
   --font-titillium: "Titillium Web", sans-serif;
 }
 
 body {
-  font-family: var(--font-poppins);
+  font-family: var(--font-titillium);
 }
