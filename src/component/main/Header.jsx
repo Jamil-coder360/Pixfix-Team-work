@@ -32,7 +32,10 @@ const Header = () => {
         <div className="flex justify-between items-center gap-10 py-4.5">
           <div className="flex items-center justify-center gap-7.5">
             {data.map((item, index) => (
-              <div key={index} className="flex items-center gap-2 text-[16px] leading-normal font-normal font-archivo text-white">
+              <div
+                key={index}
+                className="flex items-center gap-2 text-[16px] leading-normal font-normal font-archivo text-white"
+              >
                 {item.icon}
                 <span>{item.text}</span>
               </div>
