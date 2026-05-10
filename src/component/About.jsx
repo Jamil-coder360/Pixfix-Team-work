@@ -16,8 +16,8 @@ const About = () => {
           {/* left side image part */}
           <div className="grid grid-cols-[auto_1fr] gap-6 max-w-[584px] overflow-hidden ">
             <div className="grid grid-cols-1 gap-5.5 w-[236px]">
-              <img src={about_1} alt="" className="w-full " />
-              <img src={about_2} alt="" className="w-full " />
+              <img src={about_1} alt="" className="w-full h-full" />
+              <img src={about_2} alt="" className="w-full h-full" />
             </div>
             <div className=" h-full w-[336px]">
               <img src={about_3} alt="" className="h-full w-full" />
