@@ -14,8 +14,8 @@ const About = () => {
       <Container>
         <div className="grid grid-cols-[584px_1fr] gap-[76px] items-center">
           {/* left side image part */}
-          <div className="grid grid-cols-[auto_1fr] gap-6 max-w-[584px] ">
-            <div className="grid grid-cols-1 gap-5.5 w-[236px]">
+          <div className="grid grid-cols-[auto_1fr] gap-6 max-w-[584px] overflow-hidden ">
+            <div className="grid grid-cols-1 gap-5.5 w-[236px] h-auto">
               <img src={about_1} alt="" className="w-full h-full" />
               <img src={about_2} alt="" className="w-full h-full" />
             </div>
