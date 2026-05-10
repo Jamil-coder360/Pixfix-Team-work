@@ -42,10 +42,10 @@ const Header = () => {
             ))}
           </div>
           <div className="flex items-center gap-5 text-white">
-            <FaFacebookF />
-            <FaInstagram />
-            <FaTwitter />
-            <FaLinkedin />
+            <FaFacebookF size={15}/>
+            <FaInstagram size={15}/>
+            <FaTwitter size={15}/>
+            <FaLinkedin size={15}/>
           </div>
         </div>
       </Container>
