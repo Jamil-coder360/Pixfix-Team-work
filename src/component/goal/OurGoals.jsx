@@ -8,6 +8,7 @@ import { ArrowRight, Phone } from "lucide-react";
 import { FaPhoneAlt } from "react-icons/fa";
 import goal_1 from "../../assets/goal-1.png"
 import goal_2 from "../../assets/goal-2.png"
+import Cta from "./Cta";
 const OurGoals = () => {
   const bgImage = {
     background: `url(${goals})`,
@@ -16,7 +17,7 @@ const OurGoals = () => {
     backgroundSize: "cover",
   };
   return (
-    <Section className="bg-black_900 pt-30 pb-60" style={bgImage}>
+    <Section className="bg-black_900 pt-30 pb-60 relative mb-30" style={bgImage}>
       <Container>
         <div className=" max-w-[630px]">
           <SectionHeader
@@ -79,6 +80,9 @@ const OurGoals = () => {
             </div>
           </div>
         </div>
+         <div className="absolute left-1/2 -bottom-60 -translate-x-1/2 w-full ">
+    <Cta />
+  </div>
       </Container>
     </Section>
   );
