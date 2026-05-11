@@ -1,0 +1,97 @@
+/* .mySwiper {
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.mySwiper .swiper-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding-bottom: 0;
+}
+
+.mySwiper .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #000;
+  opacity: 0.3;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+  background-color: #000;
+  opacity: 1;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+
+/* Swiper Pagination Full Custom Style */
+/* Swiper wrapper spacing */
+/* .mySwiper {
+  width: 100%;
+  height: auto;
+} */
+
+.mySwiper .swiper-slide {
+    overflow: hidden !important;
+  width: 100% !important;
+  height: auto;
+}
+.mySwiper {
+      width: 100%;
+  height: auto;
+  padding-bottom: 60px; /* pagination er jonno space */
+  overflow: hidden !important;
+}
+
+/* Pagination position */
+.mySwiper .swiper-pagination {
+  position: absolute !important;
+  bottom: 0px !important;
+  left: 40px !important;
+  width: auto !important;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 40px;
+}
+
+/* Normal dots */
+.mySwiper .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background: #ff5e14 !important;
+  opacity: 1;
+  border-radius: 50%;
+  margin: 0 !important;
+}
+
+/* Active dot */
+.mySwiper .swiper-pagination-bullet-active {
+  width: 18px;
+  height: 18px;
+  background: transparent !important;
+  border: 2px solid #ff5e14;
+  position: relative;
+  border-radius: 50%;
+}
+
+/* Inner center dot */
+.mySwiper .swiper-pagination-bullet-active::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: #ff5e14;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
