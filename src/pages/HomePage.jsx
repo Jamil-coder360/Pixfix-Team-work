@@ -6,6 +6,7 @@ import OurGoals from '../component/goal/OurGoals';
 import Pricing from '../component/pricing/Pricing';
 import Testimonial from "../component/testimonial/Testimonial";
 import OurTeam from '../component/ourTeam/OurTeam';
+import BookingSection from '../component/message/BookingSection';
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
     <OurGoals />
     <OurTeam />
     <Testimonial />
+    <BookingSection />
     <Pricing />
     </>
   )
