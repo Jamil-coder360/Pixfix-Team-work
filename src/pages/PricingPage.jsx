@@ -109,8 +109,8 @@ const PricingPage = () => {
   return (
     <Section>
       <PageHead />
-      <Container className={"py-30"}>
-          <div className="grid grid-cols-3 gap-7.5">
+      <Container className="py-10 lg:py-14">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8 lg:gap-10">
           {pricingData.map((item) => (
             <PricingCard
               key={item.id}

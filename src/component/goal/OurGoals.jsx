@@ -17,7 +17,7 @@ const OurGoals = () => {
     backgroundSize: "cover",
   };
   return (
-    <Section className="bg-black_900 pt-30 pb-60 relative mb-30" style={bgImage}>
+    <Section className="bg-black_900 pt-10 lg:pt-30 pb-0 lg:pb-60 lg:relative lg:mb-30 px-5 lg:px-0" style={bgImage}>
       <Container>
         <div className=" max-w-[630px]">
           <SectionHeader
@@ -32,30 +32,30 @@ const OurGoals = () => {
             services provide solutions for mechanical and electrical issues,
             body repairs, and routine maintenance
           </p>
-          <div className="flex gap-7.5 pt-10">
-            <div className="bg-black_700 text-white grid grid-cols-[80px_1fr] gap-4 p-4">
-                <div className="bg-black_900 rounded-full p-5">
+          <div className="flex flex-col gap-3 md:gap-5 lg:gap-7.5 pt-6 md:pt-8 lg:pt-10">
+            <div className="bg-black_700 text-white grid grid-cols-[60px_1fr] md:grid-cols-[80px_1fr] gap-3 md:gap-4 p-3 md:p-4">
+                <div className="bg-black_900 rounded-full p-3 md:p-5">
                     <img src={goal_1} alt="" />
                 </div>
                 <div>
 
-                <h3 className="text-[24px] leading-normal font-bold  tracking-[-0.72px]">AI Innovations</h3>
-                <p className="font-archivo font-normal text-[16px] leading-normal">There are m variations of pass available</p>
+                <h3 className="text-[18px] md:text-[22px] lg:text-[24px] leading-normal font-bold tracking-[-0.72px]">AI Innovations</h3>
+                <p className="font-archivo font-normal text-[13px] md:text-[15px] lg:text-[16px] leading-normal">There are m variations of pass available</p>
                 </div>
             </div>
-            <div className="bg-black_700 text-white grid grid-cols-[80px_1fr] gap-4 p-4">
-                <div className="bg-black_900 rounded-full p-5">
+            <div className="bg-black_700 text-white grid grid-cols-[60px_1fr] md:grid-cols-[80px_1fr] gap-3 md:gap-4 p-3 md:p-4">
+                <div className="bg-black_900 rounded-full p-3 md:p-5">
                     <img src={goal_2} alt="" />
                 </div>
                 <div>
 
-                <h3 className="text-[24px] leading-normal font-bold  tracking-[-0.72px]">AI Innovations</h3>
-                <p className="font-archivo font-normal text-[16px] leading-normal">There are m variations of pass available</p>
+                <h3 className="text-[18px] md:text-[22px] lg:text-[24px] leading-normal font-bold tracking-[-0.72px]">AI Innovations</h3>
+                <p className="font-archivo font-normal text-[13px] md:text-[15px] lg:text-[16px] leading-normal">There are m variations of pass available</p>
                 </div>
             </div>
           </div>
 
-          <div className="flex  items-center  gap-8.5 pt-13">
+          <div className="flex  flex-wrap  items-start lg:items-center  gap-8.5 pt-13">
             <Button>
               read more <ArrowRight size={16} />
             </Button>
@@ -80,7 +80,7 @@ const OurGoals = () => {
             </div>
           </div>
         </div>
-         <div className="absolute left-1/2 -bottom-60 -translate-x-1/2 w-full ">
+         <div className="lg:absolute lg:left-1/2 lg:-bottom-60 lg:-translate-x-1/2 w-full ">
     <Cta />
   </div>
       </Container>

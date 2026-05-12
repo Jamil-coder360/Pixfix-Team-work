@@ -55,7 +55,7 @@ const resourceLinks = [
 
 const Footer = () => {
   return (
-    <footer className="relative overflow-hidden bg-[#171717] text-white">
+    <footer className="relative overflow-hidden bg-[#171717] text-white px-5 lg:px-0">
       <div
         className="absolute right-0 top-0 bottom-0 w-[35%] opacity-15 pointer-events-none bg-no-repeat bg-right-bottom bg-contain"
         style={{ backgroundImage: `url(${footerBg})` }}
@@ -78,7 +78,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-[2fr_1.2fr_1.2fr_2fr] gap-12 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1.2fr_1.2fr_2fr] gap-6 md:gap-8 lg:gap-12 py-8 md:py-12">
           <div>
             <h3 className="mb-4 text-[18px] font-bold">About Us</h3>
             <p className="text-[#6E777D] text-sm leading-7">
@@ -129,7 +129,7 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Your e-mail"
-                className="flex-1 rounded-l-md border border-white/10 bg-white/7 px-4 py-3 text-sm text-white outline-none placeholder:text-[#6E777D]"
+                className= "w-full flex-1 rounded-l-md border border-white/10 bg-white/7 px-4 py-3 text-sm text-white outline-none placeholder:text-[#6E777D]"
               />
               <button className="flex items-center justify-center rounded-r-md bg-[#FF6600] px-4 py-3 text-white transition-colors duration-300 hover:bg-[#e55a00]">
                 <svg

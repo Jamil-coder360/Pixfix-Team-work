@@ -17,14 +17,14 @@ const BookingFrom = () => {
     setForm({ name: "", email: "", phone: "", message: "" });
   };
   return (
-    <div className="bg-white p-15 shadow-lg z-10 relative max-w-[630px]">
+    <div className="bg-white p-5 md:p-8 lg:p-10 shadow-lg z-[110] relative max-w-full md:max-w-[630px] mx-auto overflow-hidden">
     
       <SectionHeader 
       subtitle=" Book Now"
       title=" Restoring your peace of the mind"
       />
 
-      <div className="flex flex-col gap-5 pt-15">
+      <div className="flex flex-col gap-3 md:gap-4 lg:gap-5 pt-6 md:pt-8 lg:pt-15">
         {[
           { name: "name", placeholder: "Name", type: "text" },
           { name: "email", placeholder: "Email", type: "email" },
@@ -37,7 +37,7 @@ const BookingFrom = () => {
             placeholder={field.placeholder}
             value={form[field.name]}
             onChange={handleChange}
-            className="border rounded-md border-gray-200 focus:border-orange-500 outline-none py-4 px-5 text-sm text-gray-800 placeholder-gray-400 bg-transparent transition-colors w-full"
+            className="border rounded-md border-gray-200 focus:border-orange-500 outline-none py-3 md:py-4 px-4 md:px-5 text-xs md:text-sm text-gray-800 placeholder-gray-400 bg-transparent transition-colors w-full"
           />
         ))}
 
@@ -47,12 +47,12 @@ const BookingFrom = () => {
           rows={3}
           value={form.message}
           onChange={handleChange}
-          className=" border border-gray-200 focus:border-orange-500 outline-none py-4 px-5 text-sm text-gray-800 placeholder-gray-400 bg-transparent transition-colors resize-none w-full"
+          className="border border-gray-200 focus:border-orange-500 outline-none py-3 md:py-4 px-4 md:px-5 text-xs md:text-sm text-gray-800 placeholder-gray-400 bg-transparent transition-colors resize-none w-full"
         />
 
         <button
           onClick={handleSubmit}
-          className="mt-10 w-full bg-orange-500 hover:bg-orange-600 active:scale-[0.98] text-white text-xs font-bold tracking-widest uppercase py-4 flex items-center justify-center gap-2 transition-all duration-200"
+          className="mt-6 md:mt-8 lg:mt-10 w-full bg-orange-500 hover:bg-orange-600 active:scale-[0.98] text-white text-xs font-bold tracking-widest uppercase py-3 md:py-4 flex items-center justify-center gap-2 transition-all duration-200"
         >
           {sent ? "Sent!" : "Send Message"}
           {!sent && <ArrowRight size={15} strokeWidth={2.5} />}

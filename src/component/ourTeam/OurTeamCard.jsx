@@ -28,23 +28,23 @@ const OurTeamCard = ({ image, name, title }) => {
   ];
 
   return (
-    <div className="max-w-[410px]">
+    <div className="max-w-full md:max-w-[410px]">
       <div>
-        <img src={image} alt="" />
+        <img src={image} alt="" className="w-full h-auto object-cover" />
       </div>
-      <div className="bg-black_900  py-7.5 px-10 flex items-end justify-between">
-        <div className="flex flex-col gap-1.25">
-          <h3 className="text-white text-[20px] leading-[24px] font-bold  font-inter ">
+      <div className="bg-black_900 py-5 md:py-6 lg:py-7.5 px-4 md:px-6 lg:px-10 flex items-end justify-between">
+        <div className="flex flex-col gap-1 md:gap-1.25">
+          <h3 className="text-white text-[16px] md:text-[18px] lg:text-[20px] leading-[20px] md:leading-[22px] lg:leading-[24px] font-bold font-inter">
             {name}
           </h3>
-          <p className="text-white text-[16px] leading-[28.8px] font-normal  font-archivo ">
+          <p className="text-white text-[13px] md:text-[14px] lg:text-[16px] leading-[22px] md:leading-[24px] lg:leading-[28.8px] font-normal font-archivo">
             {title}
           </p>
         </div>
-        <div className="group relative">
-          <div className="bg-white group-hover:bg-home py-3 px-3.25 ">
+        <div className="group relative flex-shrink-0">
+          <div className="bg-white group-hover:bg-home py-2 md:py-2.5 lg:py-3 px-2 md:px-2.5 lg:px-3.25">
             <MdOutlineShare
-              size={15}
+              size={14}
               className="text-home group-hover:text-white"
             />
           </div>

@@ -55,12 +55,26 @@
 .mySwiper .swiper-pagination {
   position: absolute !important;
   bottom: 0px !important;
-  left: 40px !important;
+  left: 20px !important;
   width: auto !important;
   display: flex;
   align-items: center;
   gap: 10px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .mySwiper .swiper-pagination {
+    left: 30px !important;
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mySwiper .swiper-pagination {
+    left: 40px !important;
+    padding-bottom: 40px;
+  }
 }
 
 /* Normal dots */

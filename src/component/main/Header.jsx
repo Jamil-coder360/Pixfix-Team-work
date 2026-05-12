@@ -29,19 +29,19 @@ const Header = () => {
   return (
     <header className="bg-home shadow-xl">
       <Container>
-        <div className="flex justify-between items-center gap-10 py-4.5">
-          <div className="flex items-center justify-center gap-7.5">
+        <div className="flex  lg:justify-between items-start lg:items-center gap-2 lg:gap-10 py-4.5  px-5 lg:px-0">
+          <div className="flex flex-wrap items-center lg:justify-center gap-2 lg:gap-7.5">
             {data.map((item, index) => (
               <div
                 key={index}
-                className="flex items-center gap-2 text-[16px] leading-normal font-normal font-archivo text-white"
+                className="flex flex-wrap items-start lg:items-center gap-.5 lg:gap-2 text-[10px] lg:text-[16px] leading-normal font-normal font-archivo text-white"
               >
                 {item.icon}
                 <span>{item.text}</span>
               </div>
             ))}
           </div>
-          <div className="flex items-center gap-5 text-white">
+          <div className="flex flex-wrap items-center gap-5 text-white">
             <FaFacebookF size={15}/>
             <FaInstagram size={15}/>
             <FaTwitter size={15}/>

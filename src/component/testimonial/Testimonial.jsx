@@ -28,7 +28,7 @@ const Testimonial = () => {
   return (
     <Section style={bgImage} className={"pt-30"}>
       <Container>
-        <div className="grid grid-cols-[620px_1fr] gap-15">
+        <div className="grid grid-cols-[620px_1fr] gap-15 overflow-hidden">
           <div className="h-[715px] overflow-hidden">
             <img
               src={test_1}

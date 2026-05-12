@@ -36,15 +36,15 @@ const Service = () => {
     },
   ];
   return (
-    <Section className="pb-30">
+    <Section className="pb-15 md:pb-22 lg:pb-30 px-5 lg:px-0">
       <Container>
         <div className="">
           <SectionHeader
-            className="flex flex-col text-center items-center justify-center pb-15"
+            className="flex flex-wrap flex-col text-center items-center justify-center pb-7 lg:pb-15"
             subtitle="Our services"
             title="Trust us with your repair needs Repairing with care"
           />
-          <div className="grid grid-cols-3 gap-7.5">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-7.5 justify-center items-center">
 
     {serviceData.map((item) => {
   return (

@@ -11,8 +11,8 @@ const ServiceCard = ({
   image
 }) => {
   return (
-    <div className="flex flex-col items-center gap-7.5 max-w-[410px] border border-black_800 group">
-      <div className=" group-hover:text-home text-[#171717] pt-13.75">
+    <div className="flex flex-col items-center gap-2 md:gap-4 lg:gap-7.5 max-w-full md:max-w-[410px] border border-black_800 group">
+      <div className=" group-hover:text-home text-[#171717] pt-7 lg:pt-13.75">
         {icon}
       </div>
 
