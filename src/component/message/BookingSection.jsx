@@ -24,7 +24,7 @@ const BookingSection =()=> {
     <Section className="relative bg-[#1a1a1a] pt-30 lg:pb-[700px] lg:mb-70  z-100 ">
       <Container>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 divide-x divide-white/10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 divide-y lg:divide-y-0 lg:divide-x divide-white/10">
           {stats.map(({ icon: Icon, value, label }) => (
             <div key={label} className="flex flex-col items-center py-8 px-6">
               <Icon size={36} strokeWidth={1.25} className="text-orange-500 mb-4" />
