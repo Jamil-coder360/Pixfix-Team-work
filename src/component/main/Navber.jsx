@@ -27,7 +27,7 @@ const Navber = () => {
 
           <div onClick={(e) => setOpen(!open)} className="lg:hidden flex z-999">
             {open ? (
-              <span className="absolute top-25 right-6 bg-black/20 backdrop-blur-3xl rounded-full p-2">
+              <span className="absolute top-30 right-6 bg-black/20 backdrop-blur-3xl rounded-full p-2">
 
                 <X className="text-home " size={20} />
               </span>
@@ -64,7 +64,7 @@ const Navber = () => {
 
           {/* Mobile menu */}
           {open && (
-            <div className="lg:hidden absolute left-0 top-[72px] bg-white/10 backdrop-blur-3xl w-full md:w-[350px] z-50 p-6 md:p-10 shadow-lg">
+            <div className="lg:hidden absolute left-0 top-[90px] bg-white/10 backdrop-blur-3xl w-full md:w-[350px] z-50 p-6 md:p-10 shadow-lg">
               <ul className="flex flex-col items-start gap-6.25">
                 {menuData.map((item) => (
                   <li key={item.id} onClick={(e) => setOpen(!open)} >
