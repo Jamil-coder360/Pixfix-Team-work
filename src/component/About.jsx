@@ -10,12 +10,12 @@ import Button from "./section/Button";
 import { ArrowRight } from "lucide-react";
 const About = () => {
   return (
-    <Section className="py-15 md:py-22 lg:py-30 px-5 lg:px-0">
+    <Section className="py-15 sm:py-22 lg:py-30 px-5 lg:px-0">
       <Container>
-        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-[584px_1fr] gap-6 lg:gap-[76px] items-center ">
+        <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-[584px_1fr] gap-6 lg:gap-[76px] items-center ">
           {/* left side image part */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[auto_1fr] gap-4 md:gap-6 max-w-full lg:max-w-[584px] overflow-hidden ">
-            <div className="grid grid-cols-1 gap-4 md:gap-5.5 w-full lg:w-[236px]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[auto_1fr] gap-4 sm:gap-6 max-w-full lg:max-w-[584px] overflow-hidden ">
+            <div className="grid grid-cols-1 gap-4 sm:gap-5.5 w-full lg:w-[236px]">
               <div>
                 <img src={about_1} alt="" className="w-full h-full" />
               </div>
@@ -30,7 +30,7 @@ const About = () => {
           {/* right side about part  */}
           <div>
             <p className="text-home font-normal text-[16px]">ABOUT US</p>
-            <h2 className="font-semibold text-[28px] md:text-[36px] lg:text-[48px] leading-[35px] md:leading-[44px] lg:leading-[58px] text-black_900 tracking-[-1.44px] pt-2.5 pb-5">
+            <h2 className="font-semibold text-[28px] sm:text-[36px] lg:text-[48px] leading-[35px] sm:leading-[44px] lg:leading-[58px] text-black_900 tracking-[-1.44px] pt-2.5 pb-5">
               {" "}
               Repairing your probl restoring your peace of mind
             </h2>
@@ -39,7 +39,7 @@ const About = () => {
               amet molestie the viverra diam velit elit viverra. Malesuada
               blandit in habitasse malesuada
             </p>
-            <div className="flex flex-col md:flex-row flex-wrap items-start md:items-center gap-4 md:gap-6 lg:gap-7.5 pt-6 md:pt-7.5 pb-8 md:pb-10">
+            <div className="flex flex-col sm:flex-row flex-wrap items-start sm:items-center gap-4 sm:gap-6 lg:gap-7.5 pt-6 sm:pt-7.5 pb-8 sm:pb-10">
               <div className="w-full lg:max-w-[280px] relative after:content-[''] after:absolute after:w-[2px] after:h-full after:bg-home after:left-0 after:top-0 pl-5 flex flex-col items-start gap-2.5">
                 <div>
                   <img src={about_4} alt="" />

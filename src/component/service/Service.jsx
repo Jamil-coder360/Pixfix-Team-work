@@ -36,7 +36,7 @@ const Service = () => {
     },
   ];
   return (
-    <Section className="pb-15 md:pb-22 lg:pb-30 px-5 lg:px-0">
+    <Section className="pb-15 sm:pb-22 lg:pb-30 px-5 lg:px-0">
       <Container>
         <div className="">
           <SectionHeader
@@ -44,7 +44,7 @@ const Service = () => {
             subtitle="Our services"
             title="Trust us with your repair needs Repairing with care"
           />
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-7.5 justify-center items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-7.5 justify-center items-center">
 
     {serviceData.map((item) => {
   return (

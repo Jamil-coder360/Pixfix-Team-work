@@ -65,7 +65,7 @@ const Pricing = () => {
             title="Restoring functionality one repair at a time"
             subtitle="Pricing Plane"
           />
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-7.5 mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-7.5 mt-10">
           {pricingData.map((item) => (
             <PricingCard
               key={item.id}
