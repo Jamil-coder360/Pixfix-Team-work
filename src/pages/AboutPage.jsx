@@ -4,6 +4,7 @@ import aboutBanner from "../assets/about_banner.jpg"
 import AboutUs from '../component/section/AboutUs'
 import Achivement from '../component/section/Achivement'
 import Skills from '../component/section/Skills'
+import WorkProcess from '../component/section/WorkProcess'
 
 const AboutPage = () => {
   return (
@@ -16,6 +17,7 @@ const AboutPage = () => {
         <AboutUs />
         <Achivement />
         <Skills />
+        <WorkProcess />
     </div>
   )
 }

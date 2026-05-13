@@ -17,7 +17,6 @@ const Skills = ({ image }) => {
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           
-          {/* Left Content */}
           <div>
             <span className="text-[#FF5E14] text-sm font-semibold uppercase">
               Our Skills
@@ -30,8 +29,6 @@ const Skills = ({ image }) => {
             <div className="mt-10 space-y-8">
               {skillsData.map((skill) => (
                 <div key={skill.id}>
-                  
-                  {/* Title + Percentage */}
                   <div className="flex justify-between items-center mb-2">
                     <h4 className="text-black font-semibold text-base">
                       {skill.title}
@@ -41,7 +38,6 @@ const Skills = ({ image }) => {
                     </span>
                   </div>
 
-                  {/* Progress Bar */}
                   <div className="w-full h-2 bg-gray-300 overflow-hidden">
                     <div
                       className="h-full bg-[#FF5E14]"
@@ -53,7 +49,6 @@ const Skills = ({ image }) => {
             </div>
           </div>
 
-          {/* Right Image */}
           <div className="w-full">
             <div className="w-full h-[300px] md:h-[450px] lg:h-[600px] xl:h-[750px] bg-gray-300 overflow-hidden">
               <img
