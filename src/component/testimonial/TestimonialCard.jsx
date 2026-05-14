@@ -3,7 +3,7 @@ import qourt from "../../assets/qourt.svg";
 import star from "../../assets/star.svg";
 const TestimonialCard = () => {
   return (
-    <div className="max-w-[620px] bg-white shadow-xl p-10">
+    <div className="w-full lg:max-w-[720px] bg-white shadow-xl p-10">
       <div className="flex items-center justify-between">
         <span className="bg-black_800 h-25 border border-[#000000] w-25 rounded-full"></span>
         <div>
