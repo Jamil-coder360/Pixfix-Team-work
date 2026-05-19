@@ -163,7 +163,7 @@ const Navber = () => {
               <span className="text-black_800">Need help?</span>
               <strong className="text-black_900">(307) 555-0133</strong>
             </div>
-          </div>
+          </div>  
 
           {/* Mobile menu */}
           {open && (
