@@ -5,6 +5,8 @@ import Roots from "./component/main/Roots"
 import HomePage from './pages/HomePage';
 import PricingPage from './pages/PricingPage';
 import ServiceDetailPage from './pages/ServiceDetailPage';
+import ProjectDetails from './pages/ProjectDetails';
+import ProjectPage from './pages/ProjectPage';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -21,7 +23,15 @@ const router = createBrowserRouter([
       {
         path:"service_detail",
         element:<ServiceDetailPage />
-      }
+      },
+      {
+        path:"project_detail",
+        element:<ProjectDetails />
+      },
+      {
+        path:"project",
+        element:<ProjectPage />
+      },
     ]
   },
 ]);
