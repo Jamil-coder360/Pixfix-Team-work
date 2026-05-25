@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../section/Button';
 import { ArrowRight } from 'lucide-react';
-
+import sideinfo from "../../assets/sideinfo.jpg";
 const ServiceSideber = () => {
   const  btn_data=[
         {
@@ -29,6 +29,12 @@ const ServiceSideber = () => {
             text:"Perfect Restorer"
         },
     ]
+ const bgImage = {
+    background: `url(${sideinfo})`,
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+  };
   return (
     <div className="flex flex-col items-start gap-10">
 
@@ -41,6 +47,19 @@ const ServiceSideber = () => {
         )}
 
     </div>
+
+    <div style={bgImage} className="w-full h-[407px] flex items-end justify-center">
+        <div className=" bg-black_900 flex flex-col items-center justify-end text-center w-full mx-10 mb-5 p-7.5">
+            <p className="text-sm font-bold pb-2.5 text-white">Have any Qustion?</p>
+            <p className="text-sm font-bold pb-5 text-white">Contact Us Now</p>
+            <strong className="text-lg font-bold pb-2.5 text-white">+1 (123) 456-7890</strong>
+            <p className="text-sm font-bold  text-white">nafiz123@gmail.com</p>
+
+        </div>
+
+    </div>
+
+
 
     <Button>
        Download pdf <ArrowRight />

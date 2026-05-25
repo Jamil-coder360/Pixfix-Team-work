@@ -4,6 +4,7 @@ import Container from "../component/section/Container"
 import PageHead from "../component/section/PageHead"
 import ServiceSideber from '../component/service/ServiceSideber';
 import DetailCard from '../component/service/DetailCard';
+import ServiceRightSide from '../component/service/ServiceRightSide';
 
 const ServiceDetailPage = () => {
   return (
@@ -15,7 +16,8 @@ const ServiceDetailPage = () => {
         <Container className={"py-30"}>
             <div className="grid grid-cols-[410px_1fr] gap-7.5">
                 <ServiceSideber />
-                <DetailCard />
+                <ServiceRightSide />
+                
             </div>
 
 

@@ -33,8 +33,8 @@ const menuData = [
     href: "/services",
     hasDropdown: true,
     submenu: [
-      { id: 31, label: "Web Design", href: "/services/design" },
-      { id: 32, label: "Web Development", href: "/services/development" },
+      { id: 31, label: "services", href: "/service" },
+      { id: 32, label: "service detail", href: "/service_detail" },
       { id: 33, label: "Mobile App", href: "/services/app" },
     ],
   },
@@ -45,7 +45,7 @@ const menuData = [
     hasDropdown: true,
     submenu: [
       { id: 41, label: "Recent Projects", href: "/projects" },
-      { id: 42, label: "Case Studies", href: "/projects/case-studies" },
+      { id: 42, label: "project details", href: "/project_detail" },
       { id: 43, label: "Portfolio", href: "/projects/portfolio" },
     ],
   },

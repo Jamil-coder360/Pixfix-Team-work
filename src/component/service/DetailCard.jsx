@@ -11,28 +11,28 @@ const DetailCard = () => {
       image: detail_1,
       title: "Repairing with care",
       description:
-        "Repair is a specialized field that focuses on fixing and restoring object.",
+        "Repair is a specialized field that focuses on fixing and restoring object ",
     },
     {
       id: 2,
       image: detail_2,
       title: "Trust us with your repair ",
       description:
-        "Professional repair services designed to restore performance and extend product life.",
+        "Repair is a specialized field that focuses on fixing and restoring object ",
     },
     {
       id: 3,
       image: detail_3,
       title: "Reliable repairs seamless",
       description:
-        "Expert technicians delivering trusted repair solutions with precision and care.",
+        "Repair is a specialized field that focuses on fixing and restoring object ",
     },
     {
       id: 4,
       image: detail_4,
       title: "Restoration experts at your",
       description:
-        "Quick turnaround repair services to minimize downtime and maximize convenience.",
+        "Repair is a specialized field that focuses on fixing and restoring object ",
     },
   ];
 
