@@ -26,7 +26,7 @@ const Testimonial = () => {
   };
 
   return (
-    <Section style={bgImage} className={"py-15 sm:py-23 lg:pt-30 px-5 lg:px-0"}>
+    <Section style={bgImage} className={"py-15 sm:py-23 lg:pt-30 px-5 lg:px-0 overflow-x-hidden"}>
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-[620px_1fr] gap-15 justify-between ">
           <div className="w-full h-full lg:h-[715px] overflow-hidden">

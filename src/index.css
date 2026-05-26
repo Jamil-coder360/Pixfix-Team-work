@@ -21,6 +21,11 @@
   --font-titillium: "Titillium Web", sans-serif;
 }
 
+html, body, #root {
+  overflow-x: hidden;
+}
+
 body {
   font-family: var(--font-titillium);
+  min-height: 100vh;
 }

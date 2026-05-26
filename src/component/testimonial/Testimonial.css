@@ -39,16 +39,25 @@
   height: auto;
 } */
 
-.mySwiper .swiper-slide {
-    overflow: hidden !important;
-  width: 100% !important;
-  height: auto;
-}
 .mySwiper {
-      width: 100%;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
   height: auto;
   padding-bottom: 60px; /* pagination er jonno space */
   overflow: hidden !important;
+}
+
+.mySwiper .swiper-wrapper {
+  width: 100%;
+}
+
+.mySwiper .swiper-slide {
+  overflow: hidden !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto;
+  box-sizing: border-box;
 }
 
 /* Pagination position */
