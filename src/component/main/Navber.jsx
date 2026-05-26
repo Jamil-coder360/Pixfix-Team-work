@@ -8,7 +8,7 @@ const menuData = [
   {
     id: 1,
     label: "Home",
-    href: "/",
+    // href: "/",
     hasDropdown: true,
     submenu: [
       { id: 11, label: "Home Page", href: "/" },
@@ -19,7 +19,7 @@ const menuData = [
   {
     id: 2,
     label: "About Us",
-    href: "/about",
+    // href: "/about",
     hasDropdown: true,
     submenu: [
       { id: 21, label: "About Company", href: "/about" },
@@ -30,7 +30,7 @@ const menuData = [
   {
     id: 3,
     label: "Services",
-    href: "/services",
+    // href: "/services",
     hasDropdown: true,
     submenu: [
       { id: 31, label: "services", href: "/service" },
@@ -41,7 +41,7 @@ const menuData = [
   {
     id: 4,
     label: "Projects",
-    href: "/projects",
+    // href: "/projects",
     hasDropdown: true,
     submenu: [
       { id: 41, label: "Recent Projects", href: "/projects" },
@@ -52,7 +52,7 @@ const menuData = [
   {
     id: 5,
     label: "Blog",
-    href: "/blog",
+    // href: "/blog",
     hasDropdown: true,
     submenu: [
       { id: 51, label: "All Articles", href: "/blog" },
@@ -63,7 +63,7 @@ const menuData = [
   {
     id: 6,
     label: "Page",
-    href: "/pricing",
+    // href: "/pricing",
     hasDropdown: true,
     submenu: [
       { id: 61, label: "Pricing Plans", href: "/pricing" },
@@ -74,7 +74,7 @@ const menuData = [
   {
     id: 7,
     label: "Contact",
-    href: "/contact",
+    // href: "/contact",
     hasDropdown: true,
     submenu: [
       { id: 71, label: "Contact Us", href: "/contact" },
