@@ -11,8 +11,9 @@ const AboutPage = () => {
     <div>
         <Banner 
           bgImage={aboutBanner}
-          title="About Us"
-          page="ABOUT US"
+          page="About Us"
+          title="ABOUT US"
+          link="/about"
         />
         <AboutUs />
         <Achivement />

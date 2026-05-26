@@ -8,8 +8,9 @@ const Service = () => {
     <div>
         <Banner
           bgImage={serviceBanner}
-          title="Service"
-          page="SERVICES"
+          title="SERVICES"
+          page="Service"
+          link="/service"
         />
         <Services />
     </div>

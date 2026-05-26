@@ -8,6 +8,7 @@ const Banner = ({
   bgImage,
   title,
   page,
+  link,
   height = "h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px]",
   overlay = "bg-black/50",
 }) => {
@@ -43,7 +44,7 @@ const Banner = ({
                 <ChevronRight className="w-4 h-4 text-home flex-shrink-0" />
 
                 <Link
-                  to="/about"
+                  to={link}
                   className="hover:text-home transition"
                 >
                   {page}
