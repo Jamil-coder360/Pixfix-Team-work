@@ -8,9 +8,11 @@ import Testimonial from "../component/testimonial/Testimonial";
 import OurTeam from '../component/ourTeam/OurTeam';
 import BookingSection from '../component/message/BookingSection';
 
+
 const HomePage = () => {
   return (
     <>
+    
     <Hero />
     <About />
     <Service />
@@ -19,6 +21,7 @@ const HomePage = () => {
     <Testimonial />
     <BookingSection />
     <Pricing />
+   
     </>
   )
 }
