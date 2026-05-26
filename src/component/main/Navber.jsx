@@ -118,8 +118,8 @@ const Navber = () => {
                   onMouseEnter={() => setActiveDropdown(item.id)}
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
-                  <Link
-                    to={item.href}
+                  <span
+                    // to={item.href}
                     className="text-black_900 font-bold font-titillium text-[16px] leading-normal  transition-colors duration-200 flex items-center gap-1"
                   >
                     {item.label}
@@ -131,7 +131,7 @@ const Navber = () => {
                         }`}
                       />
                     )}
-                  </Link>
+                  </span>
 
                   {/* Desktop Dropdown */}
                   {item.hasDropdown && item.submenu && (
